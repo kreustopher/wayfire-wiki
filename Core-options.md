@@ -10,16 +10,16 @@ Integer options, the number of horizontal/vertical workspaces. For now it can't 
 
 ## `[input]`
 
-1. `natural_scroll/tap_to_click/disable_while_typing = 1/0`
+1. `natural_scroll/tap_to_click/disable_touchpad_while_typing = 1/0`
 
 Touchpad-related options, self-explanatory.
 
-2. `xkb_layout/xkb_option/xkb_variant`
+2. `xkb_layout/xkb_options/xkb_variant`
 
 Options to control the keyboard layout, they follow the same format as the corresponding `setxkbmap` options. Example:
 ```
 xkb_layout = us,bg
-xkb_option = grp:win_space_toggle,compose:ralt
+xkb_options = grp:win_space_toggle,compose:ralt
 xkb_variant = ,phonetic
 ```
 
